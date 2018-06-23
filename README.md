@@ -2,7 +2,9 @@
 ### 拥有多个可配置项，可灵活使用的vue轮播组件，使用touch事件，所以活动仅支持手机端
 ## 安装
 npm install vue-yequan-swiper --save
+
 cnpm install vue-yequan-swiper --save //淘宝镜像
+
 ### 使用
  * 1.引用
  ```
@@ -45,10 +47,10 @@ cnpm install vue-yequan-swiper --save //淘宝镜像
         },
       }
       }
-      ```
+  ```
 ### 截图
 
- [![20180623135356.png](https://s22.postimg.cc/58fehx4a9/20180623135356.png)](https://postimg.cc/image/k4dxpifot/)
+![效果](https://s22.postimg.cc/58fehx4a9/20180623135356.png)
 
 ### 当然你也可以直接clone本项目，在本地运行查看
 * 1.npm install //建议使用cnpm,安装依赖

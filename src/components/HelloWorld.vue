@@ -9,8 +9,8 @@
 </template>
 
 <script>
-  // import {swiper,slide} from 'vue-yequan-swiper'
-  import {swiper,slide} from './index.js'
+  import {swiper,slide} from 'vue-yequan-swiper'
+  // import {swiper,slide} from './index.js'
 export default {
   name: 'HelloWorld',
   data () {

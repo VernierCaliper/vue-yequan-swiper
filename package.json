@@ -16,9 +16,7 @@
   "dependencies": {
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
-    "vue-yequan-swiper": "^1.0.0",
-    "vue-yq-swiper": "^1.0.0",
-    "yq-alert": "^1.0.1"
+    "vue-yequan-swiper": "^1.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
