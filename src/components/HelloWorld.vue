@@ -9,19 +9,19 @@
 </template>
 
 <script>
-  import {swiper,slide} from 'vue-yequan-swiper'
-  // import {swiper,slide} from './index.js'
+  // import {swiper,slide} from 'vue-yequan-swiper'
+  import {swiper,slide} from './index.js'
 export default {
   name: 'HelloWorld',
   data () {
     return {
       options:{
-        autoplay:true,
+        autoplay:false,
         duration:500,
         interval:2000,
         showPagenation:true,
-        notActiveClass:'',
-        activeClass:'yq_swiper_active',
+        notActiveClass:'notActiveClass',
+        activeClass:'active',
         index:1,
       },
       list:[
@@ -40,6 +40,9 @@ export default {
       ]
     }
   },
+  mounted:function () {
+
+  },
   components:{
     swiper,slide
   }
@@ -47,8 +50,14 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
 .hello{
   height: 280px;
 }
+  .notActiveClass{
+    background: #eeeeee!important;
+  }
+  .active{
+    background: #0fc37c!important;
+  }
 </style>

@@ -8,7 +8,7 @@
     </div>
 
     <div v-if="options.showPagenation" class="yq_pagenation">
-      <div v-for="(item,$index) in slidesLength" class="yq_pagenation_item"
+      <div v-for="(item,$index) in slidesLength" class="yq_pagenation_item" flag
            v-bind:class="[options.index-1===$index?options.activeClass:'',options.notActiveClass]"
            >
       </div>
@@ -45,27 +45,6 @@
         activeClass:'yq_swiper_active',
         index:1,
       },
-      // autoplay: {
-      //   default: true//是否自动轮播
-      // },
-      // duration: {
-      //   default: 500//过度时长
-      // },
-      // interval: {
-      //   default: 2500//自动轮播间隔时长
-      // },
-      // showPagenation: {
-      //   default: true//是否显示轮播index dots
-      // },
-      // notActiveClass:{
-      //   default:''//index dots 类名
-      // },
-      // activeClass:{
-      //   default:'yq_swiper_active'//index dots当前类名
-      // },
-      // index:{
-      //   default:1//默认加载显示第几张slide
-      // }
     },
     mounted() {
       this.init()
@@ -228,6 +207,6 @@
     background: #eeeeee;
   }
   .yq_pagenation_item.yq_swiper_active {
-    background: #0fc37c;
+    background: #0fc37c!important;
   }
 </style>
